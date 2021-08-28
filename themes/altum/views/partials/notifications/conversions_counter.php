@@ -3,15 +3,16 @@
 
 <?php ob_start() ?>
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-conversions-counter-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
-    <div class="altumcode-conversions-counter-content">
+    <div class="altumcode-conversions-counter-content pr-4">
 
         <div class="altumcode-conversions-counter-header">
-            <div class="altumcode-conversions-counter-number" style="background: <?= $notification->settings->number_background_color ?>; color: <?= $notification->settings->number_color ?>">
-                <?= isset($notification->counter) && $notification->counter >= $notification->settings->display_minimum_activity ? $notification->counter : \Altum\Language::get()->notification->conversions_counter->number_default ?>
-            </div>
+            <?php $notification->image = isset($notification->image) && $notification->image ? $notification->image : $notification->settings->image; ?>
+        <?php if(!empty($notification->image)): ?>
+        <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/<?= $notification->image ?>" class="altumcode-latest-conversion-image" loading="lazy" />
+        <?php endif ?>
 
             <div>
-                <p class="altumcode-conversions-counter-title" style="color: <?= $notification->settings->title_color ?>"><?= $notification->settings->title ?></p>
+                <p class="altumcode-conversions-counter-title pb-2" style="color: <?= $notification->settings->title_color ?>"><?= isset($notification->counter) && $notification->counter >= $notification->settings->display_minimum_activity ? $notification->counter : \Altum\Language::get()->notification->conversions_counter->number_default ?> <?= $notification->settings->title ?></p>
                 <p class="altumcode-conversions-counter-time"><?= sprintf(\Altum\Language::get()->notification->conversions_counter->time_default, $notification->settings->last_activity) ?></p>
             </div>
 

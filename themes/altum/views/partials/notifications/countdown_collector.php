@@ -19,22 +19,22 @@
             <input type="hidden" name="end_date" value="<?= (new \DateTime($notification->settings->end_date))->getTimestamp() ?>" />
 
             <div class="altumcode-countdown-collector-timer-block">
-                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>" data-type="days"><?= $date_ended ? '0' : $date->format('%a') ?></div>
+                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->settings->time_background_color, 0.3)); ?>)" data-type="days"><?= $date_ended ? '0' : $date->format('%a') ?></div>
                 <p class="altumcode-countdown-collector-time-text"><?= \Altum\Language::get()->notification->countdown_collector->days ?></p>
             </div>
 
             <div class="altumcode-countdown-collector-timer-block">
-                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>" data-type="hours"><?= $date_ended ? '0' : $date->format('%h') ?></div>
+                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->settings->time_background_color, 0.3)); ?>)" data-type="hours"><?= $date_ended ? '0' : $date->format('%h') ?></div>
                 <p class="altumcode-countdown-collector-time-text"><?= \Altum\Language::get()->notification->countdown_collector->hours ?></p>
             </div>
 
             <div class="altumcode-countdown-collector-timer-block">
-                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>" data-type="minutes"><?= $date_ended ? '0' : $date->format('%i') ?></div>
+                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->settings->time_background_color, 0.3)); ?>)" data-type="minutes"><?= $date_ended ? '0' : $date->format('%i') ?></div>
                 <p class="altumcode-countdown-collector-time-text"><?= \Altum\Language::get()->notification->countdown_collector->minutes ?></p>
             </div>
 
             <div class="altumcode-countdown-collector-timer-block">
-                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>" data-type="seconds"><?= $date_ended ? '0' : $date->format('%s') ?></div>
+                <div class="altumcode-countdown-collector-time" style="color: <?= $notification->settings->time_color ?>;background: <?= $notification->settings->time_background_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->settings->time_background_color, 0.3)); ?>)" data-type="seconds"><?= $date_ended ? '0' : $date->format('%s') ?></div>
                 <p class="altumcode-countdown-collector-time-text"><?= \Altum\Language::get()->notification->countdown_collector->seconds ?></p>
             </div>
         </div>
@@ -44,7 +44,7 @@
                 <div class="altumcode-countdown-collector-row">
                     <input type="text" class="" name="input" placeholder="<?= $notification->settings->input_placeholder ?>" />
 
-                    <button type="submit" name="button" style="color: <?= $notification->settings->button_color ?>; background: <?= $notification->settings->button_background_color ?>"><?= $notification->settings->button_text ?></button>
+                    <button type="submit" name="button" style="color: <?= $notification->settings->button_color ?>; background: <?= $notification->settings->button_background_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->button_background_color, 0.3)); ?>)"><?= $notification->settings->button_text ?></button>
                 </div>
 
                 <?php if($notification->settings->show_agreement): ?>

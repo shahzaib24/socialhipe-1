@@ -1250,7 +1250,8 @@
             "name"                              : "Email Collector",
 			"description"                       : "Easily collect emails and generate leads from your users.",
 			"icon"								: "fa fa-fw fa-envelope-open",
-
+            
+            "image_default"                     : "/images/email_collector_notification_icon.svg",
             "title_default"            			: "Weekly newsletter",
 			"description_default"           	: "We do not send out spam emails & you can unsubscribe at any point.",
 			"email_placeholder_default"       	: "Your valid email",
@@ -1265,7 +1266,7 @@
 
             "title_default"            			: "Someone from England",
 			"description_default"      		 	: "Signed up for the newsletter.",
-			"image_default"						: "https://img.icons8.com/dusk/2x/small-smile.png",
+			"image_default"						: "/images/latest_conversion_notification_icon.svg",
 			"time_ago_default"       			: "10 mins ago"
 		},
 
@@ -1274,8 +1275,8 @@
 			"description"                       : "Establish social proof by showing how many recent conversions you've got.",
 			"icon"								: "fa fa-fw fa-comment-dollar",
 
-			"title_default"           			: "People bought the product",
-			"image_default"       				: "https://img.icons8.com/officel/2x/return-purchase.png",
+			"title_default"           			: "People bought",
+			"image_default"       				: "/images/conversion_counter_notification_icon.svg",
 			"number_default"					: "5",
 			"time_default"       				: "In the last %s hours"
 		},
@@ -1294,6 +1295,9 @@
 			"name"                              : "Social Share",
 			"description"                       : "Let others share your content and generate more traffic for you.",
 			"icon"								: "fa fa-fw fa-share-alt",
+            "facebook_icon"                     : "/images/social_share_facebook_notification_icon.svg",
+            "twitter_icon"                      : "/images/social_share_twitter_notification_icon.svg",
+            "linkedin_icon"                     : "/images/social_share_linkedin_notification_icon.svg",
 
 			"title_default"            			: "Tell your friends",
 			"description_default"           	: "We appreciate all the shares to support us! Thank you!"
@@ -1306,7 +1310,7 @@
 
 			"title_default"            			: "John Doe",
 			"description_default"           	: "SocialProof is a 5 star product!",
-			"image_default"						: "https://img.icons8.com/color/2x/person-male.png"
+			"image_default"						: "/images/latest_conversion_notification_icon.svg"
 		},
 
 		"emoji_feedback": {
@@ -1330,7 +1334,7 @@
 			"description_default"      			: "This website uses cookies to ensure you get the best experience on our website.",
 			"button_text_default"				: "Okay",
 			"url_text_default"					: "Learn More",
-			"image_default"						: "https://img.icons8.com/plasticine/2x/cookie.png"
+			"image_default"						: "/images/cookie.svg"
 		},
 
 		"score_feedback": {

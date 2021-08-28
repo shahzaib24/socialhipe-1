@@ -199,6 +199,7 @@ return array_merge(
 
         'CONVERSIONS_COUNTER' => [
             'title' => \Altum\Language::get()->notification->conversions_counter->title_default,
+            'image' => \Altum\Language::get()->notification->conversions_counter->image_default,
             'last_activity' => 2,
             'url' => '',
             'url_new_tab' => true,
@@ -271,6 +272,11 @@ return array_merge(
         'SOCIAL_SHARE' => [
             'title' => \Altum\Language::get()->notification->social_share->title_default,
             'description' => \Altum\Language::get()->notification->social_share->description_default,
+            
+            'image_facebook' => \Altum\Language::get()->notification->social_share->facebook_icon,
+            'image_twitter' => \Altum\Language::get()->notification->social_share->twitter_icon,
+            'image_linkedin' => \Altum\Language::get()->notification->social_share->linkedin_icon,
+            
             'share_url'   => '',
             'share_facebook' => true,
             'share_twitter' => true,

@@ -5,12 +5,12 @@
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-random-review-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
     <div class="altumcode-random-review-content">
         <?php if(!empty($notification->settings->image)): ?>
-        <img src="<?= $notification->settings->image ?>" class="altumcode-random-review-image" loading="lazy" />
+        <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/<?= $notification->settings->image ?>" class="altumcode-random-review-image" loading="lazy" />
         <?php endif ?>
 
         <div>
             <div class="altumcode-random-review-header">
-                <p class="altumcode-random-review-title" style="color: <?= $notification->settings->title_color ?>"><?= $notification->settings->title ?></p>
+                <p class="altumcode-random-review-title px-2" style="color: <?= $notification->settings->title_color ?>"><?= $notification->settings->title ?></p>
 
                 <div class="altumcode-random-review-stars">
                     <?php for($i = 1; $i <= $notification->settings->stars; $i++): ?>

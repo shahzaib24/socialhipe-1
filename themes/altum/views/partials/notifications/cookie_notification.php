@@ -2,13 +2,17 @@
 
 <?php ob_start() ?>
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-cookie-notification-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
-    <div class="altumcode-cookie-notification-content">
-
-        <div class="altumcode-cookie-notification-header">
+    <div class="altumcode-cookie-notification-content p-1 row">
+        
+        <div class="col-3 pl-4">  
             <?php if(!empty($notification->settings->image)): ?>
-                <img src="<?= $notification->settings->image ?>" class="altumcode-cookie-notification-image" loading="lazy" />
+                <img src="<?= SITE_URL . ASSETS_URL_PATH?>/<?= $notification->settings->image ?>" class="altumcode-cookie-notification-image" loading="lazy" />
             <?php endif ?>
-
+        </div>
+        
+        <div class="col-9 pl-0">
+        <div class="altumcode-cookie-notification-header">
+          
             <p class="altumcode-cookie-notification-description" style="color: <?= $notification->settings->description_color ?>">
                 <?= $notification->settings->description ?>
 
@@ -29,6 +33,7 @@
                 <a href="<?= url() ?>" class="altumcode-site"><?= $settings->socialproofo->branding ?></a>
             <?php endif ?>
         <?php endif ?>
+     </div>
     </div>
 </div>
 <?php $html = ob_get_clean() ?>

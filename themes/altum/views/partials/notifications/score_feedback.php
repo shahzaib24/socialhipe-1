@@ -3,19 +3,38 @@
 
 <?php ob_start() ?>
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-score-feedback-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
-    <div class="altumcode-score-feedback-content">
+    <div class="altumcode-score-feedback-content px-2">
         <div class="altumcode-score-feedback-header">
             <p class="altumcode-score-feedback-title" style="color: <?= $notification->settings->title_color ?>"><?= $notification->settings->title ?></p>
 
             <span class="altumcode-close"></span>
         </div>
 
+        <?php
+        function hexToRgb($hex, $alpha = false) {
+   $hex      = str_replace('#', '', $hex);
+   $length   = strlen($hex);
+   $rgb['r'] = hexdec($length == 6 ? substr($hex, 0, 2) : ($length == 3 ? str_repeat(substr($hex, 0, 1), 2) : 0));
+   $rgb['g'] = hexdec($length == 6 ? substr($hex, 2, 2) : ($length == 3 ? str_repeat(substr($hex, 1, 1), 2) : 0));
+   $rgb['b'] = hexdec($length == 6 ? substr($hex, 4, 2) : ($length == 3 ? str_repeat(substr($hex, 2, 1), 2) : 0));
+   if ( $alpha ) {
+      $rgb['a'] = $alpha;
+   }
+   return $rgb;
+}
+        
+        ?>
+        
+        
+        
+        
+        
         <div class="altumcode-score-feedback-scores">
-            <button type="button" class="altumcode-score-feedback-button" data-score="1" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_1 ?></button>
-            <button type="button" class="altumcode-score-feedback-button" data-score="2" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_2 ?></button>
-            <button type="button" class="altumcode-score-feedback-button" data-score="3" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_3 ?></button>
-            <button type="button" class="altumcode-score-feedback-button" data-score="4" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_4 ?></button>
-            <button type="button" class="altumcode-score-feedback-button" data-score="5" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_5 ?></button>
+            <button type="button" class="altumcode-score-feedback-button" data-score="1" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->button_background_color, 0.3)); ?>)"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_1 ?></button>
+            <button type="button" class="altumcode-score-feedback-button" data-score="2" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->button_background_color, 0.3)); ?>)"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_2 ?></button>
+            <button type="button" class="altumcode-score-feedback-button" data-score="3" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->button_background_color, 0.3)); ?>)"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_3 ?></button>
+            <button type="button" class="altumcode-score-feedback-button" data-score="4" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->button_background_color, 0.3)); ?>)"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_4 ?></button>
+            <button type="button" class="altumcode-score-feedback-button" data-score="5" style="background: <?= $notification->settings->button_background_color ?>;color: <?= $notification->settings->button_color ?>; box-shadow: 0px 8px 17px rgba(<?php echo implode(',',hexToRgb($notification->settings->button_background_color, 0.3)); ?>)"><?= \Altum\Language::get()->notification->score_feedback->feedback_score_5 ?></button>
         </div>
 
         <p class="altumcode-score-feedback-description" style="color: <?= $notification->settings->description_color ?>"><?= $notification->settings->description ?></p>

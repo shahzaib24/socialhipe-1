@@ -10,23 +10,29 @@
             <span class="altumcode-close"></span>
         </div>
 
-        <div class="altumcode-social-share-buttons">
+        <div class="">
 
             <?php if($notification->settings->share_facebook): ?>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=<?= urlencode($notification->settings->share_url) ?>&amp;src=sdkpreparse" target="_blank" class="altumcode-social-share-button altumcode-social-share-button-facebook">Facebook</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=<?= urlencode($notification->settings->share_url) ?>&amp;src=sdkpreparse" target="_blank" class="">
+            <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/<?= $notification->settings->image_facebook ?>" class="" loading="lazy" />
+            </a>
             <?php endif ?>
 
             <?php if($notification->settings->share_twitter): ?>
-                <a href="https://twitter.com/intent/tweet?url=<?= urlencode($notification->settings->share_url) ?>" target="_blank" class="altumcode-social-share-button altumcode-social-share-button-twitter">Twitter</a>
+                <a href="https://twitter.com/intent/tweet?url=<?= urlencode($notification->settings->share_url) ?>" target="_blank" class="">
+                    <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/<?= $notification->settings->image_twitter ?>" class="" loading="lazy" />
+            </a>
             <?php endif ?>
 
             <?php if($notification->settings->share_linkedin): ?>
-                <a href="https://www.linkedin.com/sharing/share-offsite/?mini=true&url=<?= urlencode($notification->settings->share_url) ?>" target="_blank" class="altumcode-social-share-button altumcode-social-share-button-linkedin">Linkedin</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?mini=true&url=<?= urlencode($notification->settings->share_url) ?>" target="_blank" class="">
+                    <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/<?= $notification->settings->image_linkedin ?>" class="" loading="lazy" />
+            </a>
             <?php endif ?>
 
         </div>
 
-        <p class="altumcode-social-share-description" style="color: <?= $notification->settings->description_color ?>"><?= $notification->settings->description ?></p>
+        <p class="altumcode-social-share-description text-muted px-5" style="color: <?= $notification->settings->description_color ?>"><?= $notification->settings->description ?></p>
 
         <?php if($notification->settings->display_branding): ?>
             <?php if(isset($notification->branding, $notification->branding->name, $notification->branding->url) && !empty($notification->branding->name) && !empty($notification->branding->url)): ?>
