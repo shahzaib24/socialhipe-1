@@ -2,27 +2,93 @@
 
 <input type="hidden" id="base_controller_url" name="base_controller_url" value="<?= url('notification/' . $data->notification->notification_id) ?>" />
 
-<header class="header pb-0">
-    <div class="container">
+<div class="container-fluid bg-light-grey pb-6">
+    <div class="row mr-1">
+        
+          <div class="col-lg-1 bg-light-grey text-center fs-esm">
+              
+              <div class="my-3">
+                   <div class="p-3 bg-red rounded-circle">
+              <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/campaign_icon.svg" class="img-fluid">
+                  </div>
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->chart ?></div>
+              </div>
+              
+              
+              
+               <div class="my-3">
+                <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/new_campaign_icon.svg" class="img-fluid">
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->header ?></div>
+              </div>
+             
+              
+             
+                  <div class="my-3">
+                      <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/support_icon.svg" class="img-fluid">
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->support ?></div>
+              </div>
+                            
+              
+                      <a class="my-3 btn bg-white shadow p-2 fs-esm font-weight-bold"><?= $this->language->account->plan->upgrade ?></a>
 
-        <nav aria-label="breadcrumb">
-            <small>
-                <ol class="custom-breadcrumbs">
-                    <li>
-                        <a href="<?= url('dashboard') ?>"><?= $this->language->dashboard->breadcrumb ?></a><i class="fa fa-fw fa-angle-right"></i>
-                    </li>
-                    <li>
-                        <a href="<?= url('campaign/' . $data->notification->campaign_id) ?>"><?= $this->language->campaign->breadcrumb ?></a><i class="fa fa-fw fa-angle-right"></i>
-                    </li>
-                    <li class="active" aria-current="page"><?= $this->language->notification->breadcrumb ?></li>
-                </ol>
-            </small>
-        </nav>
+               </div>
+        <div class="col-lg-11 bg-white rounded px-4 pb-5">
+
+
+<header class="header pb-0 bg-white mb-0">
+    
+            
+        <div class="d-flex justify-content-between">
+            <div class="col-8 p-0">
+             <h1 class="h2 mr-3"><?= $data->notification->name ?></h1>
+                </div>
+<!--
+             <div class="">
+            <span class="badge badge-success h-fc"><?//= sprintf($this->language->account->plan->header, $this->user->plan->name) ?></span>
+                 <span class="h-fc red"><u><?//= sprintf($this->language->account->plan->renew, $this->user->plan->name) ?></u></span>
+                 
+            </div>
+-->
+        
+        
+        
+ <div class="col-4 p-0 lol">
+        <div class="bg-FO rounded-pill p-2 pr-3 d-flex fs-esm justify-content-between modal-dialog-centered text-capitalize text-5b">
+            <div class="">
+                <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/right_tick.svg" class="bg-green p-1 rounded-circle">
+                create campaign
+            </div>
+            <div class="">
+                 <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/right_tick.svg" class="bg-green p-1 rounded-circle">
+                create notifications
+            </div>
+            <div class="rounded-circle right-tick-border p-2">2/2</div>
+            </div>
+     
+        </div>
+            
+            
+            </div>
+    
+    
+    <div class="">
+
+
 
         <div class="d-flex align-items-center">
-            <h1 class="h2 mr-3"><?= $data->notification->name ?></h1>
+           
 
-            <div class="custom-control custom-switch mr-3" data-toggle="tooltip" title="<?= $this->language->campaign->notifications->is_enabled_tooltip ?>">
+       
+            <div class="d-flex align-items-center mr-3">
+               <u class="red">
+                <?= $data->notification->domain ?>
+                </u>
+            </div>
+
+            <span class="">
+                <i class="<?= $this->language->notification->{strtolower($data->notification->type)}->icon ?> fa-sm mr-1"></i> <?= $this->language->notification->{strtolower($data->notification->type)}->name ?>
+            </span>
+             <div class="custom-control custom-switch ml-2" data-toggle="tooltip" title="<?= $this->language->campaign->notifications->is_enabled_tooltip ?>">
                 <input
                         type="checkbox"
                         class="custom-control-input"
@@ -33,34 +99,13 @@
                 >
                 <label class="custom-control-label clickable" for="campaign_is_enabled_<?= $data->notification->notification_id ?>"></label>
             </div>
-
-            <div class="dropdown">
-                <a href="#" data-toggle="dropdown" class="text-secondary dropdown-toggle dropdown-toggle-simple">
-                    <i class="fa fa-ellipsis-v"></i>
-
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a href="<?= url('notification/' . $data->notification->notification_id) ?>" class="dropdown-item"><i class="fa fa-fw fa-sm fa-pencil-alt mr-1"></i> <?= $this->language->global->edit ?></a>
-                        <a href="<?= url('notification/' . $data->notification->notification_id . '/statistics') ?>" class="dropdown-item"><i class="fa fa-fw fa-sm fa-chart-bar mr-1"></i> <?= $this->language->notification->statistics->link ?></a>
-                        <a href="#" data-toggle="modal" data-target="#notification_delete_modal" data-notification-id="<?= $data->notification->notification_id ?>" class="dropdown-item"><i class="fa fa-fw fa-sm fa-times mr-1"></i> <?= \Altum\Language::get()->global->delete ?></a>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="d-flex">
-            <div class="d-flex align-items-center text-muted mr-3">
-                <img src="https://external-content.duckduckgo.com/ip3/<?= $data->notification->domain ?>.ico" class="img-fluid icon-favicon mr-1" />
-                <?= $data->notification->domain ?>
-            </div>
-
-            <span class="text-muted">
-                <i class="<?= $this->language->notification->{strtolower($data->notification->type)}->icon ?> fa-sm mr-1"></i> <?= $this->language->notification->{strtolower($data->notification->type)}->name ?>
-            </span>
         </div>
 
         <?= $this->views['method_menu'] ?>
     </div>
 </header>
+       
+  
 
 <?php require THEME_PATH . 'views/partials/ads_header.php' ?>
 
@@ -71,6 +116,11 @@
     <?= $this->views['method'] ?>
 
 </section>
+            
+    
+              </div>
+</div>
+</div>
 
 <?php ob_start() ?>
 <link href="<?= SITE_URL . ASSETS_URL_PATH . 'css/pickr.min.css' ?>" rel="stylesheet" media="screen">

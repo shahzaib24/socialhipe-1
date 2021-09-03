@@ -197,7 +197,7 @@ $settings = require THEME_PATH . 'views/notification/settings/settings.' . strto
 
 <div class="mt-5 mb-3 d-flex flex-column flex-md-row justify-content-between align-items-md-center">
     <div>
-        <h2 class="h3"><?= $this->language->notification->preview->header ?></h2>
+        <h2 class="h4"><?= $this->language->notification->preview->header ?></h2>
         <p class="text-muted"><?= $this->language->notification->preview->subheader ?></p>
     </div>
 
@@ -207,18 +207,20 @@ $settings = require THEME_PATH . 'views/notification/settings/settings.' . strto
 </div>
 
 
+<!--
 <div class="mt-5 mb-3 d-flex justify-content-between">
-    <h2 class="h3"><?= $this->language->notification->settings->header ?></h2>
+    <h2 class="h3"><?//= $this->language->notification->settings->header ?></h2>
 </div>
+-->
 
 <div class="row">
     <div class="col-12 col-md-3">
-        <ul class="nav flex-md-column nav-pills mb-3" id="pills-tab" role="tablist">
+        <ul class="nav flex-md-column nav-pills mb-3 text-center" id="pills-tab" role="tablist">
 
             <?php if(in_array('basic', $data->notification->settings->enabled_settings_tabs)): ?>
                 <li class="nav-item">
                     <a class="nav-link active" id="tab_basic_link" data-toggle="pill" href="#tab_basic" role="tab" aria-controls="tab_basic" aria-selected="true">
-                        <i class="fa fa-fw fa-sm fa-cog mr-1"></i> <?= $this->language->notification->settings->tab_basic ?>
+<!--                        <i class="fa fa-fw fa-sm fa-cog mr-1"></i>--> <?= $this->language->notification->settings->tab_basic ?>
                     </a>
                 </li>
             <?php endif ?>
@@ -226,7 +228,7 @@ $settings = require THEME_PATH . 'views/notification/settings/settings.' . strto
             <?php if(in_array('triggers', $data->notification->settings->enabled_settings_tabs)): ?>
                 <li class="nav-item">
                     <a class="nav-link" id="tab_triggers_link" data-toggle="pill" href="#tab_triggers" role="tab" aria-controls="tab_triggers" aria-selected="false">
-                        <i class="fa fa-fw fa-sm fa-angle-up mr-1"></i> <?= $this->language->notification->settings->tab_triggers ?>
+<!--                        <i class="fa fa-fw fa-sm fa-angle-up mr-1"></i>--> <?= $this->language->notification->settings->tab_triggers ?>
                     </a>
                 </li>
             <?php endif ?>
@@ -234,7 +236,7 @@ $settings = require THEME_PATH . 'views/notification/settings/settings.' . strto
             <?php if(in_array('display', $data->notification->settings->enabled_settings_tabs)): ?>
                 <li class="nav-item">
                     <a class="nav-link" id="tab_display_link" data-toggle="pill" href="#tab_display" role="tab" aria-controls="tab_display" aria-selected="false">
-                        <i class="fa fa-fw fa-sm fa-sliders-h mr-1"></i> <?= $this->language->notification->settings->tab_display ?>
+<!--                        <i class="fa fa-fw fa-sm fa-sliders-h mr-1"></i>--> <?= $this->language->notification->settings->tab_display ?>
                     </a>
                 </li>
             <?php endif ?>
@@ -242,7 +244,7 @@ $settings = require THEME_PATH . 'views/notification/settings/settings.' . strto
             <?php if(in_array('customize', $data->notification->settings->enabled_settings_tabs)): ?>
                 <li class="nav-item">
                     <a class="nav-link" id="tab_customize_link" data-toggle="pill" href="#tab_customize" role="tab" aria-controls="tab_customize" aria-selected="false">
-                        <i class="fa fa-fw fa-sm fa-paint-brush mr-1"></i> <?= $this->language->notification->settings->tab_customize ?>
+<!--                        <i class="fa fa-fw fa-sm fa-paint-brush mr-1"></i>--> <?= $this->language->notification->settings->tab_customize ?>
                     </a>
                 </li>
             <?php endif ?>
@@ -251,7 +253,7 @@ $settings = require THEME_PATH . 'views/notification/settings/settings.' . strto
             <?php if(in_array('data', $data->notification->settings->enabled_settings_tabs)): ?>
                 <li class="nav-item">
                     <a class="nav-link" id="tab_data_link" data-toggle="pill" href="#tab_data" role="tab" aria-controls="tab_data" aria-selected="false">
-                        <i class="fa fa-fw fa-sm fa-database mr-1"></i> <?= $this->language->notification->settings->tab_data ?>
+<!--                        <i class="fa fa-fw fa-sm fa-database mr-1"></i> <?= $this->language->notification->settings->tab_data ?>-->
                     </a>
                 </li>
             <?php endif ?>
@@ -300,7 +302,7 @@ $settings = require THEME_PATH . 'views/notification/settings/settings.' . strto
             </div>
 
             <div class="mt-4">
-                <button type="submit" name="submit" class="btn btn-lg btn-block btn-primary"><?= $this->language->global->update ?></button>
+                <button type="submit" name="submit" class="btn btn-sm bg-red text-white py-3 px-4 shadow-red rounded-7"><?= $this->language->global->update_notification ?></button>
             </div>
 
         </form>

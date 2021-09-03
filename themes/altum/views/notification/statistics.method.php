@@ -22,7 +22,7 @@ $statistics = require THEME_PATH . 'views/notification/statistics/statistics.' .
             <button
                     id="daterangepicker"
                     type="button"
-                    class="btn btn-sm btn-outline-primary"
+                    class="btn btn-sm btn-outline-primary-c"
                     data-min-date="<?= \Altum\Date::get($data->notification->date, 4) ?>"
                     data-max-date="<?= \Altum\Date::get('', 4) ?>"
             >

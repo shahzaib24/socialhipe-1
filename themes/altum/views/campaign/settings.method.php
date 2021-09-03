@@ -1,20 +1,14 @@
 <?php defined('ALTUMCODE') || die() ?>
 
-<div class="mt-5 d-flex justify-content-between">
-        <h2 class="h3"><?= $this->language->campaign->notifications->header ?></h2>
+<div class="d-flex justify-content-end">
+<!--        <h2 class="h3"><?//= $this->language->campaign->notifications->header ?></h2>-->
 
-        <div class="col-auto p-0 d-flex">
-            <div>
-                <?php if($this->user->plan_settings->notifications_limit != -1 && $data->notifications_total >= $this->user->plan_settings->notifications_limit): ?>
-                    <button type="button" data-confirm="<?= $this->language->notification->error_message->notifications_limit ?>" class="btn btn-primary rounded-pill"><i class="fa fa-plus-circle"></i> <?= $this->language->campaign->notifications->create ?></button>
-                <?php else: ?>
-                    <a href="<?= url('notification-create/' . $data->campaign->campaign_id) ?>" class="btn btn-primary rounded-pill"><i class="fa fa-plus-circle"></i> <?= $this->language->campaign->notifications->create ?></a>
-                <?php endif ?>
-            </div>
+        <div class="col-auto p-0 d-flex align-items-center">
+           
 
-            <div class="ml-3">
+            <div class="mr-3">
                 <div class="dropdown">
-                    <button type="button" class="btn <?= count($data->filters->get) ? 'btn-outline-primary' : 'btn-outline-secondary' ?> rounded-pill filters-button dropdown-toggle-simple" data-toggle="dropdown"><i class="fa fa-fw fa-sm fa-filter"></i></button>
+                    <button type="button" class="btn rounded-pill filters-button dropdown-toggle-simple" data-toggle="dropdown"><i class="fa fa-fw fa-sm fa-filter"></i></button>
 
                     <div class="dropdown-menu dropdown-menu-right filters-dropdown">
                         <div class="dropdown-header d-flex justify-content-between">
@@ -103,6 +97,13 @@
 
                     </div>
                 </div>
+            </div>
+             <div>
+                <?php if($this->user->plan_settings->notifications_limit != -1 && $data->notifications_total >= $this->user->plan_settings->notifications_limit): ?>
+                    <button type="button" data-confirm="<?= $this->language->notification->error_message->notifications_limit ?>" class="btn shadow-red bg-red rounded-7 text-white py-2 px-3"><i class="fa fa-plus-circle"></i> <?= $this->language->campaign->notifications->create ?></button>
+                <?php else: ?>
+                    <a href="<?= url('notification-create/' . $data->campaign->campaign_id) ?>" class="btn shadow-red bg-red rounded-7 text-white py-2 px-3"><i class="fa fa-plus-circle"></i> <?= $this->language->campaign->notifications->create ?></a>
+                <?php endif ?>
             </div>
         </div>
     </div>

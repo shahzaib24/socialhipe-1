@@ -1,20 +1,65 @@
 <?php defined('ALTUMCODE') || die() ?>
 
 <input type="hidden" id="base_controller_url" name="base_controller_url" value="<?= url('campaign/' . $data->campaign->campaign_id) ?>" />
+<div class="container-fluid bg-light-grey pb-6">
+<div class="row mr-1">
 
-<header class="header pb-0">
+
+    <div class="col-lg-1 bg-light-grey text-center fs-esm">
+              
+              <div class="my-3">
+                  <div class="p-3 bg-red rounded-circle">
+              <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/campaign_icon.svg" class="img-fluid">
+                  </div>
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->chart ?></div>
+              </div>
+              
+              
+              
+               <div class="my-3">
+                <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/new_campaign_icon.svg" class="img-fluid">
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->header ?></div>
+              </div>
+             
+              
+             
+                  <div class="my-3">
+                      <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/support_icon.svg" class="img-fluid">
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->support ?></div>
+              </div>
+                            
+              
+                      <a class="my-3 btn bg-white shadow p-2 fs-esm font-weight-bold"><?= $this->language->account->plan->upgrade ?></a>
+
+               </div>
+
+
+
+
+
+  <div class="col-lg-11 bg-white rounded px-4 pb-5">
+
+
+
+<header class="header bg-white mb-0">
+        
     <div class="container">
+        
+        
+        
 
+<!--
         <nav aria-label="breadcrumb">
             <small>
                 <ol class="custom-breadcrumbs">
                     <li>
-                        <a href="<?= url('dashboard') ?>"><?= $this->language->dashboard->breadcrumb ?></a><i class="fa fa-fw fa-angle-right"></i>
+                        <a href="<?//= url('dashboard') ?>"><?//= $this->language->dashboard->breadcrumb ?></a><i class="fa fa-fw fa-angle-right"></i>
                     </li>
-                    <li class="active" aria-current="page"><?= $this->language->campaign->breadcrumb ?></li>
+                    <li class="active" aria-current="page"><?//= $this->language->campaign->breadcrumb ?></li>
                 </ol>
             </small>
         </nav>
+-->
 
         <?php
 
@@ -35,14 +80,44 @@
         ?>
 
         <div class="d-flex">
-            <img src="<?= $data->campaign->icon ?>" class="campaign-big-avatar rounded-circle mr-3" alt="" />
+<!--            <img src="<?//= $data->campaign->icon ?>" class="campaign-big-avatar rounded-circle mr-3" alt="" />-->
 
             <div class="d-flex flex-column flex-grow-1">
-                <div class="d-flex flex-column flex-md-row align-items-md-center">
-                    <h1 class="h2 mr-3"><span class="underline"><?= $data->campaign->name ?></span></h1>
+                <div class="align-items-md-center">
+                    
+                    <div class="d-flex justify-content-between">
+            <div class="col-8 p-0">
+                
+                    <h1 class="h2 mr-3"><span class=""><?= $data->campaign->name ?></span></h1>
 
+                        </div>
+                    
+                            
+ <div class="col-4 p-0 lol">
+        <div class="bg-FO rounded-pill p-2 pr-3 d-flex fs-esm justify-content-between modal-dialog-centered text-capitalize text-5b">
+            <div class="">
+                <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/right_tick.svg" class="bg-green p-1 rounded-circle">
+                create campaign
+            </div>
+            <div class="">
+                 <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/right_tick.svg" class="bg-green p-1 rounded-circle">
+                create notifications
+            </div>
+            <div class="rounded-circle right-tick-border p-2">2/2</div>
+            </div>
+     
+        </div>
+                    </div>
+                    
+                    
+                    
                     <div class="d-flex">
-                        <div class="custom-control custom-switch mr-3" data-toggle="tooltip" title="<?= $this->language->dashboard->campaigns->is_enabled_tooltip ?>">
+                        
+                <div class="d-flex align-items-center red">
+<!--                    <img src="https://external-content.duckduckgo.com/ip3/<?//= $data->campaign->domain ?>.ico" class="img-fluid icon-favicon mr-1" />-->
+                    <u> <?= $data->campaign->domain ?></u>
+                </div>
+                        <div class="custom-control custom-switch mr-1 ml-3" data-toggle="tooltip" title="<?= $this->language->dashboard->campaigns->is_enabled_tooltip ?>">
                             <input
                                     type="checkbox"
                                     class="custom-control-input"
@@ -77,14 +152,10 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                </div>
+                
 
-                <div class="d-flex align-items-center text-muted">
-                    <img src="https://external-content.duckduckgo.com/ip3/<?= $data->campaign->domain ?>.ico" class="img-fluid icon-favicon mr-1" />
-                    <?= $data->campaign->domain ?>
+    </div>
                 </div>
-
             </div>
         </div>
 
@@ -113,3 +184,6 @@
     <?= $this->views['method'] ?>
 
 </section>
+    </div>
+</div>
+</div>

@@ -10,6 +10,7 @@
 		"view"							: "View",
 		"cancel"						: "Cancel",
 		"update"						: "Update",
+        "update_notification"           : "Update notifiaction changes",
 		"enable"						: "Enable",
 		"disable"						: "Disable",
 		"hidden"						: "Hidden",
@@ -893,8 +894,8 @@
 		"title"								: "%s Notification",
 
         "preview": {
-            "header"                        : "Preview",
-            "subheader"                     : "Overall preview of how it would look like."
+            "header"                        : "Notification Preview",
+            "subheader"                     : "Preview notification changes live."
         },
 
 		"settings": {
