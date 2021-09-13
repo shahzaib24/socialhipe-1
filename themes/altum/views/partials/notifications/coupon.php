@@ -4,6 +4,11 @@
 <?php ob_start() ?>
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-coupon-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;' data-t="t">
     <div class="altumcode-coupon-content-custom">
+         <?php if(!empty($notification->settings->icon)): ?>
+        <div class="position-absolute small-notification-icon">
+             <img src="<?= SITE_URL . ASSETS_URL_PATH . $notification->settings->icon ?>" class="" loading="lazy" />
+        </div>
+         <?php endif ?>
         <?php if(!empty($notification->settings->image)): ?>
         <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/<?= $notification->settings->image ?>" class="altumcode-coupon-image-custom" loading="lazy" />
         <?php endif ?>

@@ -1,10 +1,11 @@
 <?php defined('ALTUMCODE') || die() ?>
-<div class="bg-pink">
+<div class="bg-white">
 <div class="index-background-container d-none d-lg-block">
     <div class="index-background-image"></div>
 </div>
-
-<div class="index-cover-container d-none d-lg-block">
+<div class="bg-pink">
+ 
+<div class=" d-none d-lg-block">
     <div class="container container-disabled-simple">
         <div class="index-cover">
             
@@ -40,23 +41,47 @@
 </div>
 </div>
 
+
+    
+    
+    
  <div class="container-fluid">
     <div class="container">
 	<div class="row coupon-row">
 	<div class="col-lg-6 col-md-6 col-sm-12">
-	 <div class="coupon_outer">
-	 <div class="coupon-left">
-	 	   <img src="<?= SITE_URL . ASSETS_URL_PATH . '/images/off.png'?>" class="img-fluid">
-	 </div>
-	 <div class="coupon-right">
-	 <h4><?= $this->language->notification->coupon->title_default ?></h4>
-	 <p><?= $this->language->notification->coupon->description_default ?></p>
-	 <h2><?= $this->language->notification->coupon->coupon_code_default ?></h2>
-	 <div class="getCoupon">
-	 <a href=""><?= $this->language->notification->coupon->button_text_default ?></a>
-	 </div>
-	 </div>
-	 </div>
+	 <div id="notification_preview" class="notification-preview-coupon">
+        
+
+
+
+
+<div class="altumcode-wrapper altumcode-wrapper-rounded altumcode-wrapper-shadow altumcode-coupon-wrapper" style="background-color: #fff;border-width: 0px;border-color: #000;;" data-t="t">
+    <div class="altumcode-coupon-content-custom">
+                <img src="http://localhost/socialhipe/themes/altum/assets///images/coupon_notification_icon.svg" class="altumcode-coupon-image-custom" loading="lazy">
+        
+        <div>
+            <div class="altumcode-coupon-header">
+                <p class="altumcode-coupon-title" style="color: #000">35% OFF!</p>
+
+                <span class="altumcode-close"></span>
+            </div>
+            <p class="altumcode-coupon-description fs-14" style="color: #000">Limited summer sale coupon code!</p>
+
+            <div class="altumcode-coupon-coupon-code">COUPON20</div>
+
+            <a href="" class="altumcode-coupon-button bg-red" style="color: #fff">Get Coupon</a>
+
+<!--
+            <div>
+                <a href="#" class="altumcode-coupon-footer"><?//= $notification->settings->footer_text ?></a>
+            </div>
+-->
+
+                                                <a href="http://localhost/socialhipe/" class="altumcode-site">by SocialHipe</a>
+                                    </div>
+    </div>
+</div>
+    </div>
 	</div>
         
 <!--        <div data-coupon="coupon" ><?//= $this->views['coupon'] ?></div>-->
@@ -334,10 +359,10 @@ Show your visitors how many people are <br/>on your site to create more trust.
         <p class="text-muted mt-5"><?= $this->language->index->pricing->subheader ?></p>
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
             
-          <label class="btn btn-secondary active px-5">
+          <label class="btn btn-secondary nav-link px-4 border-round-1 active">
             <input type="radio" name="options" id="option1" autocomplete="off" checked> Monthly
           </label>
-          <label class="btn btn-secondary px-5">
+          <label class="btn btn-secondary nav-link px-4 border-round-2">
             <input type="radio" name="options" id="option2" autocomplete="off"> Annual
           </label>
 </div>
@@ -352,138 +377,9 @@ Show your visitors how many people are <br/>on your site to create more trust.
     
 </div>
     
-    
-    <div class="container mt-10">
-    <div class="row p-5">
-        
-        <div class="shadow text-center rounded p-5 m-2">
-        <h4 class="text-black px-5">50% Off Today</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do</p>
-            <a href="" class="btn bg-red shadow text-white py-2 px-5">shop now</a>
-        </div>
-        
-          <div class="shadow text-center rounded p-5 m-2">
-        <h4 class="text-black px-5">join us today!</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do</p>
-            <a href="" class="btn bg-red shadow text-white py-2 px-5">subscribe</a>
-        </div>
-        
-          <div class="h-fc shadow text-start rounded px-6 py-4 m-2">
-              <div class="row">
-              <div class="col-2">
-              <img src="" height="40px" width="40px">
-              </div>
-              <div class="col-10">
-        <h4 class="text-black text-start">10 visitors online</h4>
-        <p>Lorem ipsum dolor sit amet, consectetu</p>
-           
-        </div>
-        </div>
-        </div>
-        
-        
-        <div class="shadow text-center rounded p-5 m-2">
-        <h4 class="text-black px-5">How was our support?</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do</p>
-            <a href="" class="btn bg-red shadow text-white p4 mx-1">1</a>
-            <a href="" class="btn bg-red shadow text-white p4 mx-1">2</a>
-            <a href="" class="btn bg-red shadow text-white p4 mx-1">3</a>
-            <a href="" class="btn bg-red shadow text-white p4 mx-1">4</a>
-            <a href="" class="btn bg-red shadow text-white p4 mx-1">5</a>
-            
-        </div>
-        
-        
-          <div class="shadow text-center rounded p-5 m-2">
-        <h4 class="text-black px-5">How was our support?</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do</p>
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            
-        </div>
-        
-        
-          <div class="shadow text-center rounded p-5 m-2">
-        <h4 class="text-black px-5">Share now</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do</p>
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            <img href="" class="btn bg-red shadow text-white p4 mx-1">
-            
-        </div>
-        
-        
-        <div class="bg-light-blue p-6 m-2">
-         <div class="shadow bg-white text-center rounded px-9 py-5">
-        <h2 class="text-black px-5">Hurry</h2>
-             <div class="row text-center py-5">
-                 <div class="col-4"><div class="bg-pink rounded "><h1>7</h1></div><h5>Days</h5></div>
-                  <div class="col-4 "><div class="bg-pink rounded "><h1>15</h1></div><h5>Hour</h5></div>
-                 <div class="col-4"><div class="bg-pink rounded"><h1>33</h1></div><h5>Min</h5></div>
-                 
-             </div>
-             
-        <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do</p>
-            <a href="" class="btn bg-red shadow text-white py-2 px-5">Add to cart</a>
-        </div>
-        </div>
-        
-        
-          <div class="h-fc shadow text-start rounded px-4 py-4 m-2">
-              <div class="bg-light-blue rounded-circle h-fc float-right">
-                  <img src="" class="p-1">
-                  </div>
-              <div class="d-flex">
-              <div class="col-2">
-              <img src="" height="40px" width="40px">
-              </div>
-              <div class="col-10">
-                  <h4 class="text-black text-start">Flash sale!<span class="dot"></span></h4>
-        <p>Lorem ipsum dolor sit amet, consectetu</p>
-        </div>      
-        </div>
-        </div>
-        
-        
-                  <div class="h-fc shadow text-start rounded px-4 py-4 m-2">
-              <div class="bg-light-blue rounded-circle h-fc float-right">
-                  <img src="" class="p-1">
-                  </div>
-              <div class="d-flex">
-              <div class="col-2">
-              <img src="" height="40px" width="40px">
-              </div>
-              <div class="col-10">
-                  <h4 class="text-black text-start">Flash sale!<span class="dot"></span></h4>
-        <p>Lorem ipsum dolor sit amet, consectetu</p>
-                    <div class="border-0">
-                      <input type="email" name="email" class="py-1">
-                          <input type="submit" name="newsletter_button" class="ml-n2 btn rounded-start bg-red text-white">
-                      </div>
-        </div>      
-        </div>
-                      
-                    
-        </div>
-        
-        <div class="shadow text-center rounded p-5 m-2">
-        <h4 class="text-black px-5">Demo of the product</h4>
-        <div class="ratio ratio-1x1 p-6">
-            <div>1x1</div>
-            </div>
-            <a href="" class="btn bg-red shadow text-white py-2 px-5">Sign Up</a>
-        </div>
-        
-        </div>
-    </div>
-    
 
-<?php if($this->settings->register_is_enabled): ?>
+
+<?php //if($this->settings->register_is_enabled): ?>
 <!--
 <div class="index-register-container mt-9">
     <div class="container">
@@ -500,7 +396,7 @@ Show your visitors how many people are <br/>on your site to create more trust.
     </div>
 </div>
 -->
-<?php  endif ?>
+<?php  //endif ?>
 
 <?php ob_start() ?>
 <link rel="stylesheet" href="<?= SITE_URL . ASSETS_URL_PATH . 'css/aos.min.css' ?>">

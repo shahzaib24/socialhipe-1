@@ -3,6 +3,11 @@
 
 <?php ob_start() ?>
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-emoji-feedback-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
+    <?php if(!empty($notification->settings->icon)): ?>
+        <div class="small-notification-icon float-right">
+             <img src="<?= SITE_URL . ASSETS_URL_PATH . $notification->settings->icon ?>" class="" loading="lazy" />
+        </div>
+         <?php endif ?>
     <div class="altumcode-emoji-feedback-content">
         <div class="altumcode-emoji-feedback-header">
             <p class="altumcode-emoji-feedback-title" style="color: <?= $notification->settings->title_color ?>"><?= $notification->settings->title ?></p>

@@ -297,7 +297,8 @@
             "menu_support_li"           :"<li>Contact</li><li>Help center</li><li>Vote for New</li><li>Features</li><li>Become a Partner</li>",
             "menu_contact"              :"CONTACT US",
             "menu_contact_content"      :"Dummy address Street, Reading, Berkshire, RG1 2QU, United Kingdom",
-            "menu_contact_li"           :"<li>hello@domain.com</li><li>+44 (118) 000 000</li>",
+            "menu_contact_mail"         :"hello@domain.com",
+            "menu_contact_number"       :"+44 (118) 000 000",
             "copy_right_li"             :"<li class='list-inline-item border-light border-end'>© Social Hipe 2021 </li><li class='list-inline-item border-light border-end'>Terms of Service </li><li class='list-inline-item'> Privacy Policy</li>"
 		},
 
@@ -1199,6 +1200,7 @@
 			"name"                              : "Informational",
 			"description"                       : "Fully customizable informational message for your users.",
 			"icon"								: "fa fa-fw fa-info-circle",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"            			: "Flash sale!",
 			"description_default"           	: "Limited sale until tonight, right now!",
@@ -1209,6 +1211,7 @@
             "name"                              : "Coupon",
 			"description"                       : "The best way to let your users know that you are running a sale.",
 			"icon"								: "fa fa-fw fa-piggy-bank",
+			"icon_small"						: "/images/small_notification_icon.svg",
 
             "title_default"            			: "35% OFF!",
 			"description_default"           	: "Limited summer sale coupon code!",
@@ -1241,6 +1244,7 @@
             "name"                              : "Live Counter",
 			"description"                       : "Show your visitors how many people are on your site to create more trust.",
 			"icon"								: "fa fa-fw fa-globe",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
             "description_default"           	: "Active visitors now.",
 			"image_default"       				: "https://img.icons8.com/nolan/2x/cutting-coupon.png",
@@ -1251,6 +1255,7 @@
             "name"                              : "Email Collector",
 			"description"                       : "Easily collect emails and generate leads from your users.",
 			"icon"								: "fa fa-fw fa-envelope-open",
+            "icon_small"						: "/images/small_notification_icon.svg",
             
             "image_default"                     : "/images/email_collector_notification_icon.svg",
             "title_default"            			: "Weekly newsletter",
@@ -1264,6 +1269,7 @@
             "name"                              : "Latest Conversion",
 			"description"                       : "Establish social proof by displaying your most recent conversions on your site.",
 			"icon"								: "fa fa-fw fa-funnel-dollar",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
             "title_default"            			: "Someone from England",
 			"description_default"      		 	: "Signed up for the newsletter.",
@@ -1275,6 +1281,7 @@
 			"name"                              : "Conversions Counter",
 			"description"                       : "Establish social proof by showing how many recent conversions you've got.",
 			"icon"								: "fa fa-fw fa-comment-dollar",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"           			: "People bought",
 			"image_default"       				: "/images/conversion_counter_notification_icon.svg",
@@ -1286,6 +1293,7 @@
 			"name"                              : "Video",
 			"description"                       : "Easily display a small widget with an informative YouTube video.",
 			"icon"								: "fa fa-fw fa-video",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"            			: "Demo of the product",
 			"thumbnail_default"       			: "https://i3.ytimg.com/vi/3WxQgvuT6ZI/maxresdefault.jpg",
@@ -1296,6 +1304,8 @@
 			"name"                              : "Social Share",
 			"description"                       : "Let others share your content and generate more traffic for you.",
 			"icon"								: "fa fa-fw fa-share-alt",
+            "icon_small"						: "/images/small_notification_icon.svg",
+            
             "facebook_icon"                     : "/images/social_share_facebook_notification_icon.svg",
             "twitter_icon"                      : "/images/social_share_twitter_notification_icon.svg",
             "linkedin_icon"                     : "/images/social_share_linkedin_notification_icon.svg",
@@ -1308,6 +1318,7 @@
 			"name"                              : "Random Review",
 			"description"                       : "Display a random review/testimonial from your clients to create social proof.",
 			"icon"								: "fa fa-fw fa-random",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"            			: "John Doe",
 			"description_default"           	: "SocialProof is a 5 star product!",
@@ -1318,6 +1329,7 @@
 			"name"                              : "Emoji Feedback",
 			"description"                       : "An interactive way for your users to give you feedback about your site.",
 			"icon"								: "fa fa-fw fa-smile-beam",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"            			: "Do you like our website?",
             "feedback_emoji_angry"              : "Angry",
@@ -1331,6 +1343,7 @@
 			"name"                              : "Cookie Notification",
 			"description"                       : "Notify your users that you are using cookies on your site.",
 			"icon"								: "fa fa-fw fa-cookie",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"description_default"      			: "This website uses cookies to ensure you get the best experience on our website.",
 			"button_text_default"				: "Okay",
@@ -1342,6 +1355,7 @@
 			"name"                              : "Score Feedback",
 			"description"                       : "The easiest way for your users to give you a score feedback.",
 			"icon"								: "fa fa-fw fa-sort-numeric-up",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"            			: "How'd you like our website?",
 			"description_default"				: "Rate from 1 to 5. 5 being excellent.",
@@ -1356,6 +1370,7 @@
 			"name"                              : "Request Collector",
 			"description"                       : "Collecting leads has never been easier with the request collector.",
 			"icon"								: "fa fa-fw fa-user-plus",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"            			: "John",
 			"description_default"           	: "Support Team",
@@ -1371,6 +1386,7 @@
 			"name"                              : "Countdown Collector",
 			"description"                       : "Create urgency/FOMO with a countdown timer and an input for lead generation.",
 			"icon"								: "fa fa-fw fa-clock",
+            "icon_small"						: "/images/small_notification_icon.svg",
 
 			"title_default"            			: "Building a website 💻",
 			"description_default"           	: "Free Webinar by us.",

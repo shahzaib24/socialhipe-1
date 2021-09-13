@@ -37,10 +37,10 @@
         <?php endif ?>
     </head>
 
-    <body class="<?= \Altum\Routing\Router::$controller_settings['body_white'] ? 'bg-white' : null ?>" data-theme-style="<?= \Altum\ThemeStyle::get() ?>">
+    <body class="<?= \Altum\Routing\Router::$controller_settings['body_white'] ? 'bg-pink' : null ?>" data-theme-style="<?= \Altum\ThemeStyle::get() ?>">
         <?= $this->views['menu'] ?>
 
-        <main class="bg-white">
+        <main class="">
 
             <?= $this->views['content'] ?>
 

@@ -2,8 +2,13 @@
 
 <?php ob_start() ?>
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-cookie-notification-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
-    <div class="altumcode-cookie-notification-content p-1 row">
-        
+    <?php if(!empty($notification->settings->icon)): ?>
+        <div class="small-notification-icon float-right">
+             <img src="<?= SITE_URL . ASSETS_URL_PATH . $notification->settings->icon ?>" class="" loading="lazy" />
+        </div>
+         <?php endif ?>
+    <div class="altumcode-cookie-notification-content p-1">
+       
         <div class="col-3 pl-4">  
             <?php if(!empty($notification->settings->image)): ?>
                 <img src="<?= SITE_URL . ASSETS_URL_PATH?>/<?= $notification->settings->image ?>" class="altumcode-cookie-notification-image" loading="lazy" />

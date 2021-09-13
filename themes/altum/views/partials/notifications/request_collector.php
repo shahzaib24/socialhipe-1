@@ -5,6 +5,11 @@
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-request-collector-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
     <div class="altumcode-request-collector-content">
         <div class="altumcode-request-collector-header">
+            <?php if(!empty($notification->settings->icon)): ?>
+        <div class="position-absolute small-notification-icon">
+             <img src="<?= SITE_URL . ASSETS_URL_PATH . $notification->settings->icon ?>" class="" loading="lazy" />
+        </div>
+         <?php endif ?>
             <img src="<?= $notification->settings->image ?>" class="altumcode-request-collector-image" loading="lazy" />
 
             <div class="altumcode-request-collector-header-text">

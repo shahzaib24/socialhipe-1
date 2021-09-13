@@ -124,7 +124,7 @@ use Altum\Middlewares\Authentication;
             </ul>
 
             <?php if(Authentication::check() && $this->user->plan_id == 'free'): ?>
-                <button class="pricing-action-disabled"><?= $this->language->plan->button->already_free ?></button>
+                <button class="pricing-action-disabled shadow-red"><?= $this->language->plan->button->already_free ?></button>
             <?php else: ?>
                 <a href="<?= Authentication::check() ? url('pay/free') : url('register?redirect=pay/free') ?>" class="pricing-action f-small"><?= $this->language->plan->button->start_plan ?></a>
             <?php endif ?>

@@ -11,6 +11,7 @@ return array_merge(
             'title' => \Altum\Language::get()->notification->informational->title_default,
             'description' => \Altum\Language::get()->notification->informational->description_default,
             'image' => \Altum\Language::get()->notification->informational->image_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             'url'   => '',
             'url_new_tab' => true,
 
@@ -46,6 +47,7 @@ return array_merge(
             'title' => \Altum\Language::get()->notification->coupon->title_default,
             'description' => \Altum\Language::get()->notification->coupon->description_default,
             'image' => \Altum\Language::get()->notification->coupon->image_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             'coupon_code' => \Altum\Language::get()->notification->coupon->coupon_code_default,
             'button_url'   => '',
             'button_text'  => \Altum\Language::get()->notification->coupon->button_text_default,
@@ -85,6 +87,7 @@ return array_merge(
             'last_activity' => 15,
             'url'   => '',
             'url_new_tab' => true,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
 
             'trigger_all_pages' => true,
             'triggers' => [],
@@ -124,6 +127,7 @@ return array_merge(
             'agreement_text' => \Altum\Language::get()->notification->email_collector->agreement_text_default,
             'agreement_url' => '',
             'thank_you_url' => '',
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
 
             'trigger_all_pages' => true,
             'triggers' => [],
@@ -162,6 +166,7 @@ return array_merge(
             'title' => \Altum\Language::get()->notification->latest_conversion->title_default,
             'description' => \Altum\Language::get()->notification->latest_conversion->description_default,
             'image' => \Altum\Language::get()->notification->latest_conversion->image_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             'url'   => '',
             'url_new_tab' => true,
             'conversions_count' => 1,
@@ -200,6 +205,7 @@ return array_merge(
         'CONVERSIONS_COUNTER' => [
             'title' => \Altum\Language::get()->notification->conversions_counter->title_default,
             'image' => \Altum\Language::get()->notification->conversions_counter->image_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             'last_activity' => 2,
             'url' => '',
             'url_new_tab' => true,
@@ -240,6 +246,7 @@ return array_merge(
             'video' => '',
             'button_url'   => '',
             'button_text'  => \Altum\Language::get()->notification->video->button_text_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
 
             'trigger_all_pages' => true,
             'triggers' => [],
@@ -276,6 +283,7 @@ return array_merge(
             'image_facebook' => \Altum\Language::get()->notification->social_share->facebook_icon,
             'image_twitter' => \Altum\Language::get()->notification->social_share->twitter_icon,
             'image_linkedin' => \Altum\Language::get()->notification->social_share->linkedin_icon,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             
             'share_url'   => '',
             'share_facebook' => true,
@@ -316,6 +324,7 @@ return array_merge(
             'title' => \Altum\Language::get()->notification->random_review->title_default,
             'description' => \Altum\Language::get()->notification->random_review->description_default,
             'image' => \Altum\Language::get()->notification->random_review->image_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             'stars' => 5,
 
             'trigger_all_pages' => true,
@@ -352,6 +361,7 @@ return array_merge(
             'show_neutral' => true,
             'show_happy' => true,
             'show_excited' => true,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
 
             'trigger_all_pages' => true,
             'triggers' => [],
@@ -382,6 +392,7 @@ return array_merge(
         'COOKIE_NOTIFICATION' => [
             'description' => \Altum\Language::get()->notification->cookie_notification->description_default,
             'image' => \Altum\Language::get()->notification->cookie_notification->image_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             'url_text' => \Altum\Language::get()->notification->cookie_notification->url_text_default,
             'url' => '',
             'url_new_tab' => true,
@@ -418,6 +429,7 @@ return array_merge(
         'SCORE_FEEDBACK' => [
             'title' => \Altum\Language::get()->notification->score_feedback->title_default,
             'description' => \Altum\Language::get()->notification->score_feedback->description_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
 
             'trigger_all_pages' => true,
             'triggers' => [],
@@ -452,6 +464,7 @@ return array_merge(
             'title' => \Altum\Language::get()->notification->request_collector->title_default,
             'description' => \Altum\Language::get()->notification->request_collector->description_default,
             'image' => \Altum\Language::get()->notification->request_collector->image_default,
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
             'content_title' => \Altum\Language::get()->notification->request_collector->content_title_default,
             'content_description' => \Altum\Language::get()->notification->request_collector->content_description_default,
             'input_placeholder' => \Altum\Language::get()->notification->request_collector->input_placeholder_default,
@@ -507,6 +520,7 @@ return array_merge(
             'agreement_text' => \Altum\Language::get()->notification->countdown_collector->agreement_text_default,
             'agreement_url' => '',
             'thank_you_url' => '',
+            'icon' => \Altum\Language::get()->notification->coupon->icon_small,
 
             'trigger_all_pages' => true,
             'triggers' => [],

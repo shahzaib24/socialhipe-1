@@ -3,8 +3,14 @@
 
 <?php ob_start() ?>
 <div class="altumcode-wrapper altumcode-wrapper-<?= $notification->settings->border_radius ?> <?= $notification->settings->shadow ? 'altumcode-wrapper-shadow' : null ?> altumcode-conversions-counter-wrapper" style='background-color: <?= $notification->settings->background_color ?>;border-width: <?= $notification->settings->border_width ?>px;border-color: <?= $notification->settings->border_color ?>;<?= $notification->settings->background_pattern_svg ? 'background-image: url("' . $notification->settings->background_pattern_svg . '")' : null ?>;'>
-    <div class="altumcode-conversions-counter-content pr-4">
+    <div class="altumcode-conversions-counter-content pr-2">
 
+        <?php if(!empty($notification->settings->icon)): ?>
+        <div class="row">
+        <div class="col-10">
+        
+         <?php endif ?>
+        
         <div class="altumcode-conversions-counter-header">
             <?php $notification->image = isset($notification->image) && $notification->image ? $notification->image : $notification->settings->image; ?>
         <?php if(!empty($notification->image)): ?>
@@ -19,8 +25,18 @@
             <div class="altumcode-conversions-counter-close">
                 <span class="altumcode-close"></span>
             </div>
+        
         </div>
+        <?php if(!empty($notification->settings->icon)): ?>
+        </div>
+        <div class="col-2">
+             <img src="<?= SITE_URL . ASSETS_URL_PATH . $notification->settings->icon ?>" class="small-notification-icon" loading="lazy" />
+        </div>
+        </div>
+         <?php endif ?>
 
+        
+        
         <?php if($notification->settings->display_branding): ?>
             <?php if(isset($notification->branding, $notification->branding->name, $notification->branding->url) && !empty($notification->branding->name) && !empty($notification->branding->url)): ?>
                 <a href="<?= $notification->branding->url ?>" class="altumcode-site"><?= $notification->branding->name ?></a>

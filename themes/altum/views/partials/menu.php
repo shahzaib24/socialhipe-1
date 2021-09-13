@@ -1,13 +1,13 @@
 <?php defined('ALTUMCODE') || die() ?>
 
-<nav class="navbar navbar-main bg-light-grey <?= \Altum\Routing\Router::$controller_settings['menu_no_margin'] ? null : 'mb-8'?> navbar-expand-lg navbar-light">
+<nav class="navbar navbar-main bg-transparent <?= \Altum\Routing\Router::$controller_settings['menu_no_margin'] ? null : 'mb-8'?> navbar-expand-lg navbar-light">
     <div class="container">        
         <a class="navbar-brand" href="<?= url() ?>">
-            <?php //if($this->settings->logo != ''): ?>
+            <?php if($this->settings->logo != ''): ?>
                 <img src="<?= SITE_URL . UPLOADS_URL_PATH . 'logo/' . $this->settings->logo ?>" class="img-fluid navbar-logo" alt="<?= $this->language->global->accessibility->logo_alt ?>" />
-            <?php //else: ?>
-               <!-- <h4><?//= $this->settings->title ?></h4> -->
-            <?php //endif ?>
+            <?php else: ?>
+                <h4><?= $this->settings->title ?></h4> 
+            <?php endif ?>
         </a>
 
         <button class="btn navbar-custom-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="<?= $this->language->global->accessibility->toggle_navigation ?>">

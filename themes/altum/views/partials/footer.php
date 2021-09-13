@@ -11,18 +11,24 @@
         <h2 class="text-white">Start growing</h2>
     </div>
     <div data-aos="fade-down" data-aos-delay="300" class="col-md-6">
-                        <a href="<?= url('register') ?>" class="btn bg-red index-button float-right text-white shadow-red" ><?= $this->language->index->sign_up ?></a>
+                        <a href="<?= url('register') ?>" class="btn bg-red index-button float-right text-white shadow-red fs-12" ><?= $this->language->index->sign_up ?></a>
                     </div>
                 </div>
                 
 </div>
             
             <div class="container py-5">
-            <div class="row">
+            <div class="row hover-red">
                 
                 <div class="col-4">
-                    <h5 class="text-white pb-3"><?= $this->language->footer_content->title ?></h5>
+                    <div class="d-flex align-items-center mb-4">
+                    <div class="footer-logo p-3 d-flex">
+                 <img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/footer_logo.svg'> 
+                    </div>
+                       <h4 class="text-white ml-3 mb-0"><?= $this->language->footer_content->title ?></h4>
+                        </div>
                <?= $this->language->footer_content->content ?>
+                        
                 </div>
                  <div class="col-2">
                      <div class="text-white fs-6 pb-3"><?= $this->language->footer_content->menu_products ?></div>
@@ -48,8 +54,23 @@
                     <div class="text-white fs-6 pb-3"><?= $this->language->footer_content->menu_contact ?></div>
                 <p><?= $this->language->footer_content->menu_contact_content ?></p>
                     <ul class="list-unstyled">
-                        <?= $this->language->footer_content->menu_contact_li ?>
+                        <li><img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/footer_mail.svg' class="mr-2" ><?= $this->language->footer_content->menu_contact_mail ?></li>
+                        <li><img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/footer_phone.svg' class="mr-2" ><?= $this->language->footer_content->menu_contact_number ?></li>
                     </ul>
+                    <div class="d-flex">
+                        <div class="footer-social-icon mx-1">
+                        <img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/instagram.svg' class="p-2" >
+                            </div>
+                        <div class="footer-social-icon mx-1">
+                        <img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/facebook.svg' class="p-2" >
+                            </div>
+                        <div class="footer-social-icon mx-1">
+                        <img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/twitter.svg' class="p-2" >
+                             </div>
+                        <div class="footer-social-icon mx-1">
+                        <img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/youtube.svg' class="p-2" >
+                            </div>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -62,6 +83,9 @@
                 <?= $this->language->footer_content->copy_right_li ?>
                 </ul>
                 </div>
+                  <div class="mx-1 float-right">
+                        <img src='<?= SITE_URL . ASSETS_URL_PATH ?>/images/go_up.svg' class="go-up">
+                  </div>
                  
             </div>
             

@@ -29,12 +29,17 @@ body {
     display: flex!important;
     flex-direction: column!important;
 }
-
-
-
-
+.small-notification-icon{
+    left: 85%;
+    top: 3%;
+    width: 26px;
+    height: 26px;
+}
+.left-90{
+    left: 90%;
+}
 .fs-12{
-    font-size: 12px;
+    font-size: 12px !important;
 }
 .fs-14{
     font-size: 14px;
@@ -46,6 +51,39 @@ body {
 .red{
     color: #F15060;
 }
+
+.hover-red li{
+    margin: 8px 0;
+}
+
+.footer-logo{
+    border-radius: 50%;
+    background: #2A2D40;
+    width: fit-content;
+}
+
+.footer-social-icon{
+    border-radius: 50%;
+    background: #FDDDE0;
+    width: fit-content;
+    color: #F15060;
+
+}
+
+.go-up{
+    position: absolute;
+    transform: translate(100%,-30%);
+}
+
+.pad-12{
+    padding: 12px;
+}
+
+.hover-red li:hover{
+    color: #F15060;
+    cursor: pointer;
+}
+
 
 .shadow-red{
    box-shadow: 0px 8px 17px rgba(241, 80, 96, 0.3);
@@ -69,7 +107,7 @@ body {
 }
 
 .bg-light-grey{
-    background: #F0F3F8;
+    background: transparent;
 }
 .bg-FO{
     background: #F0F3F8;
@@ -267,6 +305,9 @@ body {
 /*	border-bottom: 3px solid var(--gray-300);*/
    
 }
+.pad-10{
+    padding:10px;
+}
 .rounded-7{
     border-radius: 7px;
 }
@@ -323,7 +364,7 @@ body {
 @media (min-width: 576px) {
 	.index-container {
 		width: 100%;
-		padding: 4rem 0 6rem 0;
+		padding: 4rem 0 3.8rem 0;
 		background: unset;
 	}
 }
@@ -655,7 +696,7 @@ h1{
 	flex-direction: column;
 	align-items: stretch;
 	text-align: center;
-	flex: 0 1 315px;
+	flex: 0 1 365px;
 }
 .pricing-action, .pricing-action-disabled {
 	color: inherit;
@@ -674,7 +715,7 @@ h1{
 	cursor: default;
 	color:#5B5B5B;
 	background: #EAF9FF;
-	border-radius: .25rem;
+	border-radius: 1rem;
 	margin: 2rem 1rem;
 }
 
@@ -777,16 +818,16 @@ h1{
 
 .pricing-palden .pricing-action-disabled {
 	font-weight: bold;
-	margin: auto 3em 2em 3em;
+	margin: auto 3em -1em 3em;
 	padding: 1em 2em;
 	color: #fff;
-	border-radius: 30px;
-	background: #6c757d;
+	border-radius: 7px;
+	background: #F15060;
 	transition: background-color 0.3s;
 }
 
 .pricing-palden .pricing-action-disabled:hover, .pricing-palden .pricing-action-disabled:focus {
-	background-color: #100A13;
+	background-color: #f0394b;
 }
 
 .pricing-palden .pricing-item--featured .pricing-deco {

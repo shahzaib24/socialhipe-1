@@ -40,12 +40,14 @@ $statistics = require THEME_PATH . 'views/notification/statistics/statistics.' .
     </div>
 </div>
 
+
+
 <?php if(!count($data->logs)): ?>
 
     <div class="d-flex flex-column align-items-center justify-content-center">
         <img src="<?= SITE_URL . ASSETS_URL_PATH . 'images/no_rows.svg' ?>" class="col-10 col-md-6 col-lg-4 mb-3" alt="<?= $this->language->global->no_data ?>" />
         <h2 class="h4 text-muted"><?= $this->language->global->no_data ?></h2>
-        <p><?= $this->language->notification->info_message->no_data ?></a></p>
+        <p><?= $this->language->notification->info_message->no_data ?></p>
     </div>
 
 <?php else: ?>
