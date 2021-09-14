@@ -4,33 +4,33 @@
 <div class="container-fluid bg-light-grey pb-6">
     <div class="row mr-1">
         
-          <div class="col-lg-1 bg-light-grey text-center fs-esm">
+       
+    <div class="col-lg-1 bg-light-grey text-center fs-esm">
               
               <div class="my-3">
-                  <div class="pad-10">
-                  <div class="p-3 bg-red rounded-circle">
-              <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/campaign_icon.svg" class="img-fluid">
+                  <div class="width-fit-content bg-red rounded-circle m-auto">
+              <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/campaign_icon.svg" class="p-3">
                   </div>
                    <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->chart ?></div>
-                      </div>
               </div>
               
               
               
                <div class="my-3">
-                   <div class="pad-10">
-                <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/new_campaign_icon.svg" class="img-fluid">
-                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->header ?></div>
+                   <div class="width-fit-content rounded-circle m-auto">
+                <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/new_campaign_icon.svg" class="p-3">
                    </div>
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->header ?></div>
+                   
               </div>
              
               
              
                   <div class="my-3">
-                      <div class="pad-10">
-                      <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/support_icon.svg" class="img-fluid">
-                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->support ?></div>
+                      <div class="width-fit-content rounded-circle m-auto">
+                      <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/support_icon.svg" class="p-3">
                       </div>
+                   <div class="text-uppercase mt-3 text-5b"><?= $this->language->admin_statistics->growth->campaigns->support ?></div>
               </div>
                             
               
