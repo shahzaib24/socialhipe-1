@@ -1,26 +1,56 @@
 <?php defined('ALTUMCODE') || die() ?>
 <div class="bg-white">
-<div class="index-background-container d-none d-lg-block">
-    <div class="index-background-image"></div>
-</div>
-<div class="bg-pink">
- 
-<div class=" d-none d-lg-block">
-    <div class="container container-disabled-simple">
+
+<div class="bg-pink position-relative" style="height:777px">  
+    <div class="container">
         <div class="index-cover">
-            
-            <img src="<?= SITE_URL . ASSETS_URL_PATH . 'images/slider-image.svg'?>" class="zoomer">
-            
+            <img src="<?= SITE_URL . ASSETS_URL_PATH . 'images/slider-image.png'?>" height="793px">
         </div>
+        
+    <div id="notification_preview" class="notification-info-home" style="">
+                        <div class="altumcode-wrapper altumcode-wrapper-rounded altumcode-wrapper-shadow altumcode-informational-wrapper" style="background-color: #fff;border-width: 0px;border-color: #000;;">
+    <div class="altumcode-informational-content">
+                 <div class="position-absolute small-notification-icon">
+             <img src="http://localhost/socialhipe/themes/altum/assets//images/small_notification_icon.svg" class="" loading="lazy">
+        </div>
+                         <img src="http://localhost/socialhipe/themes/altum/assets///images/flash_notification_icon.svg" class="altumcode-informational-image" loading="lazy">
+        
+        <div>
+            <div class="altumcode-informational-header">
+                <p class="altumcode-informational-title" style="color: #000">Flash sale!</p>
+
+                <span class="altumcode-close"></span>
+            </div>
+            <p class="altumcode-informational-description" style="color: #000">Limited sale until tonight, right now!</p>
+
+
+                                                <a href="http://localhost/socialhipe/" class="altumcode-site">by SocialHipe</a>
+                                    </div>
     </div>
 </div>
-
+                    </div>
+    <div id="notification_preview" class="notification-people-home" style="">
+                        <div class="altumcode-wrapper altumcode-wrapper-rounded altumcode-wrapper-shadow altumcode-conversions-counter-wrapper" style="background-color: #fff;border-width: 0px;border-color: #000;;">
+    <div class="altumcode-conversions-counter-content pr-2"><div class="row"><div class="col-10">
+        <div class="altumcode-conversions-counter-header">
+                            <img src="http://localhost/socialhipe/themes/altum/assets///images/conversion_counter_notification_icon.svg" class="altumcode-latest-conversion-image" loading="lazy"><div>
+                <p class="altumcode-conversions-counter-title pb-2" style="color: #000">5 People bought</p>
+                <p class="altumcode-conversions-counter-time">In the last 2 hours</p></div>
+            <div class="altumcode-conversions-counter-close">
+                <span class="altumcode-close"></span>
+            </div></div></div>
+        <div class="col-2">
+             <img src="http://localhost/socialhipe/themes/altum/assets//images/small_notification_icon.svg" class="small-notification-icon" loading="lazy"></div></div>
+        <a href="http://localhost/socialhipe/" class="altumcode-site">by SocialHipe</a>
+</div></div></div>
+    
+        
+        
 <div class="index-container">
-    <div class="container">
+    <div class="px-5">
         <?php display_notifications() ?>
 
-        <div class="row  mt-8">
-            <div class="col">
+        <div class="row mt-3">
                 <div class="text-left">
                     <h1 class="index-header mb-4" data-aos="fade-down" data-lol="lol">
                         <?php echo $this->language->index->header ?>
@@ -30,32 +60,38 @@
                     </p>
 
                     <div data-aos="fade-down" data-aos-delay="300">
-                        <a href="<?= url('register') ?>" class="btn bg-red text-white index-button" ><?= $this->language->index->sign_up ?></a>
+                        <a href="<?= url('register') ?>" class="btn bg-red text-white index-button" ><?= $this->language->index->get_started ?></a>
                     </div>
                 </div>
             </div>
 
-        </div>
 
     </div>
 </div>
+        </div>
 </div>
 
 
     
     
     
- <div class="container-fluid">
+ <div class="container-notificaiton-box-mid">
     <div class="container">
 	<div class="row coupon-row">
-	<div class="col-lg-6 col-md-6 col-sm-12">
+	<div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+        <div class="back-design-blue position-absolute">
+        
+        </div>
+         <div class="back-design-pink position-absolute">
+        
+        </div>
 	 <div id="notification_preview" class="notification-preview-coupon">
         
 
 
 
 
-<div class="altumcode-wrapper altumcode-wrapper-rounded altumcode-wrapper-shadow altumcode-coupon-wrapper" style="background-color: #fff;border-width: 0px;border-color: #000;;" data-t="t">
+<div class="altumcode-wrapper altumcode-wrapper-rounded altumcode-wrapper-shadow altumcode-coupon-wrapper" style="background-color: #fff;border-width: 0px;border-color: #000; z-index:1" data-t="t">
     <div class="altumcode-coupon-content-custom">
                 <img src="http://localhost/socialhipe/themes/altum/assets///images/coupon_notification_icon.svg" class="altumcode-coupon-image-custom" loading="lazy">
         
@@ -82,55 +118,59 @@
     </div>
 </div>
     </div>
+        
+       
+        
 	</div>
         
 <!--        <div data-coupon="coupon" ><?//= $this->views['coupon'] ?></div>-->
         
         
         
-	<div class="col-lg-6 col-md-6 col-sm-12">
+	<div class="col-lg-6 col-md-6 col-sm-12 mt-n9">
 	 <div class="amazed-visitors">
 	 <h3>
 	<?= $this->language->notification->coupon_feature->title ?>
 	 </h3>
 	 </div>
-        
-	 <div class="amazed-outer">
-	 <div class="amazed-left">
-	  <img src="<?= SITE_URL . ASSETS_URL_PATH .'/images/setup.png'?>" class="img-fluid">
+	 <div class="row">
+	 <div class="col-2">
+	  <img src="<?= SITE_URL . ASSETS_URL_PATH .'/images/quick_setup.svg'?>" class="img-fluid">
 	 </div>
-	 <div class="amazed-right">
+	 <div class="col-10">
 	 <h4><?= $this->language->notification->coupon_feature->setup_title ?></h4>
 	 <p><?= $this->language->notification->coupon_feature->setup_short_description ?></p>
 	 </div>
 	 </div>
         
-	 	 <div class="amazed-outer">
-	 <div class="amazed-left">
-	  <img src="<?= SITE_URL . ASSETS_URL_PATH .'/images/power.png'?>" class="img-fluid">
+     <div class="row">
+	 <div class="col-2">
+	  <img src="<?= SITE_URL . ASSETS_URL_PATH .'/images/powering_conversion.svg'?>" class="img-fluid">
 	 </div>
-	 <div class="amazed-right">
+	 <div class="col-10">
 	 <h4><?= $this->language->notification->coupon_feature->conversion_title ?></h4>
 	 <p><?= $this->language->notification->coupon_feature->conversion_short_description ?></p>
 	 </div>
 	 </div>
         
-	 	 <div class="amazed-outer">
-	 <div class="amazed-left">
-	  <img src="<?= SITE_URL . ASSETS_URL_PATH .'images/honest.png'?>" class="img-fluid">
+	 	 <div class="row">
+	 <div class="col-2">
+	  <img src="<?= SITE_URL . ASSETS_URL_PATH .'images/honest_pricing.svg'?>" class="img-fluid">
 	 </div>
-	 <div class="amazed-right">
+	 <div class="col-10">
 	 <h4><?= $this->language->notification->coupon_feature->pricing_title ?></h4>
 	 <p><?= $this->language->notification->coupon_feature->pricing_short_description ?></p>
 	 </div>
 	 </div>
+            
+        
 	</div>
 	</div>
 	</div>
    </div>
 
 
- <div class="container">
+ <div class="container pt-8">
    <div class="row">
    <div class="toolkit">
     <h2><?= $this->language->index->tools->header ?></h2>
@@ -150,109 +190,92 @@
 	 </div>
 	  <div class="col-lg-4 col-md-4 col-sm-6">
 	     <div class='flash-sale'>
-		 <img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/sale.png" class="img-fluid">
+		 <div class="altumcode-wrapper altumcode-wrapper-rounded altumcode-wrapper-shadow altumcode-informational-wrapper" style="background-color: #fff;border-width: 0px;border-color: #000;;">
+    <div class="altumcode-informational-content">
+                 <div class="position-absolute small-notification-icon">
+             <img src="http://localhost/socialhipe/themes/altum/assets//images/small_notification_icon.svg" class="" loading="lazy">
+        </div>
+                         <img src="http://localhost/socialhipe/themes/altum/assets///images/flash_notification_icon.svg" class="altumcode-informational-image" loading="lazy">
+        
+        <div>
+            <div class="altumcode-informational-header">
+                <p class="altumcode-informational-title" style="color: #000">Flash sale!</p>
+
+                <span class="altumcode-close"></span>
+            </div>
+            <p class="altumcode-informational-description" style="color: #000">Limited sale until tonight, right now!</p>
+
+
+                                                <a href="http://localhost/socialhipe/" class="altumcode-site">by SocialHipe</a>
+                                    </div>
+    </div>
+</div>
 		 </div>
 	  </div>
    </div>
    </div>
+    
+    
+    
+    
+    
+    
    <div class="container">
      <div class="row">
-	  <div class="col-md-4">
-	    <div class="services_upper">
-		<div class="image_upper">
-		<div class="image_outer">
-		<img class="center-block image-center"  src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/i.png">
-		 </div>
-		 <div class="services_content">
-		  <h3>Informational</h3>
-          <p>
-		  Fully customizable informational<br/> message for your users.
+         
+        <div class="mt-5 row d-flex align-items-stretch">
+            <?php foreach($data->notifications as $notification_type => $notification_config): ?>
 
-		  </p>
-		 </div>
-		 </div>
-		</div>
-	  </div>
-	  	  <div class="col-md-4">
-	    <div class="services_upper">
-		<div class="image_upper">
-		<div class="image_outer">
-		<img class="center-block image-center"  src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/coupns-1.png">
-		 </div>
-		 <div class="services_content">
-		  <h3>Coupon</h3>
-          <p>
-		  The best way to let your users know that<br/> you are running a sale.
+                <?php
 
-		  </p>
-		 </div>
-		 </div>
-		</div>
-	  </div>
-	  	  <div class="col-md-4">
-	    <div class="services_upper">
-		<div class="image_upper">
-		<div class="image_outer">
-		<img class="center-block image-center"  src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/counter.png">
-		 </div>
-		 <div class="services_content">
-		  <h3>Live Counter</h3>
-          <p>
-Show your visitors how many people are <br/>on your site to create more trust.
-		  </p>
-		 </div>
-		 </div>
-		</div>
-	  </div>
-	  	  <div class="col-md-4">
-	    <div class="services_upper">
-		<div class="image_upper">
-		<div class="image_outer">
-		<img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/i.png" class="img-fluid">
-		 </div>
-		 <div class="services_content">
-		  <h3>Informational</h3>
-          <p>
-		  Fully customizable informational<br/> message for your users.
+                /* Check for permission of usage of the notification */
+                if(!$this->user->plan_settings->enabled_notifications->{$notification_type}) {
+                    continue;
+                }
 
-		  </p>
-		 </div>
-		 </div>
-		</div>
-	  </div>
-	  	  <div class="col-md-4">
-	    <div class="services_upper">
-		<div class="image_upper">
-		<div class="image_outer">
-		<img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/i.png" class="img-fluid">
-		 </div>
-		 <div class="services_content">
-		  <h3>Informational</h3>
-          <p>
-		  Fully customizable informational<br/> message for your users.
+                ?>
 
-		  </p>
-		 </div>
-		 </div>
-		</div>
-	  </div>
-	  	  <div class="col-md-4">
-	    <div class="services_upper">
-		<div class="image_upper">
-		<div class="image_outer">
-		<img src="<?= SITE_URL . ASSETS_URL_PATH ?>/images/coupns-1.png" class="img-fluid">
-		 </div>
-		 <div class="services_content">
-		  <h3>Informational</h3>
-          <p>
-		  Fully customizable informational<br/> message for your users.
+                <?php $notification = \Altum\Notification::get($this->settings, $notification_type) ?>
 
-		  </p>
-		 </div>
-		 </div>
-		</div>
-	  </div>
-	  
+                <label class="col-12 col-md-6 col-lg-4 mb-3 mb-md-4 custom-radio-box mb-3">
+
+                    <input type="radio" name="type" value="<?= $notification_type ?>" class="d-none" required="required">
+
+                    <div class="services_upper h-200px">
+                        <div class="px-5">
+
+                            <div class="image_upper mb-3 text-center">
+                                <h2> <span class="image_outer position-relative red"><i class="position-absolute transform-middle center-block image-center <?= $this->language->notification->{strtolower($notification_type)}->icon ?>"></i></span></h2>
+                            </div>
+
+                            <h4 class="card-title font-weight-bold text-center mt-4"><?= $this->language->notification->{strtolower($notification_type)}->name ?></h4>
+
+                            <p class="text-muted text-center"><?= $this->language->notification->{strtolower($notification_type)}->description ?></p>
+
+                        </div>
+                    </div>
+
+                    <div class="preview" style="display: none">
+                        <?= preg_replace(['/<form/', '/<\/form>/', '/required=\"required\"/'], ['<div', '</div>', ''], $notification->html) ?>
+                    </div>
+
+                </label>
+
+                <?php if($notification_type == 'ENGAGEMENT_LINKS'): ?>
+                    <?php ob_start() ?>
+                    <script>
+                        $('.altumcode-engagement-links-wrapper .altumcode-engagement-links-hidden').removeClass('altumcode-engagement-links-hidden').addClass('altumcode-engagement-links-shown');
+                    </script>
+                    <?php \Altum\Event::add_content(ob_get_clean(), 'javascript') ?>
+                <?php endif ?>
+
+            <?php endforeach ?>
+        </div>
+
+ 
+	 
+	  	
+	  	
 	 </div>
    </div>
 
@@ -356,13 +379,13 @@ Show your visitors how many people are <br/>on your site to create more trust.
     <div class="text-center mb-8">
         <h2><?= $this->language->index->pricing->header ?></h2>
 
-        <p class="text-muted mt-5"><?= $this->language->index->pricing->subheader ?></p>
-        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <p class="text-muted mt-4"><?= $this->language->index->pricing->subheader ?></p>
+        <div class="btn-group btn-group-toggle mt-5" data-toggle="buttons">
             
-          <label class="btn btn-secondary nav-link px-4 border-round-1 active">
+          <label class="btn plan-btn nav-link px-4 border-round-1 active">
             <input type="radio" name="options" id="option1" autocomplete="off" checked> Monthly
           </label>
-          <label class="btn btn-secondary nav-link px-4 border-round-2">
+          <label class="btn plan-btn nav-link px-4 border-round-2">
             <input type="radio" name="options" id="option2" autocomplete="off"> Annual
           </label>
 </div>

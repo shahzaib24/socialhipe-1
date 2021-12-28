@@ -7419,3 +7419,647 @@ Stack trace:
 [14-Sep-2021 12:55:57 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
 [14-Sep-2021 12:56:26 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
 [14-Sep-2021 12:56:26 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:22 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:22 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:27 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:27 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:29 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:29 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:31 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:31 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:33 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[07-Oct-2021 15:58:33 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[08-Oct-2021 10:44:20 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[08-Oct-2021 10:44:20 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[27-Dec-2021 11:35:56 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[27-Dec-2021 11:35:56 UTC] PHP Warning:  Attempt to read property "domain" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\dashboard\index.php on line 81
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:29 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\campaign\settings.method.php on line 55
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:34 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 11:36:35 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 11:36:36 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 14:23:07 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 14:23:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:29:09 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:29:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:47:16 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:47:39 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:03 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:11 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:23 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\notification-create\index.php on line 150
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:48:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[27-Dec-2021 15:51:50 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:51:50 UTC] PHP Warning:  include(http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:51:50 UTC] PHP Warning:  include(): Failed opening 'http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:53:09 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:53:09 UTC] PHP Warning:  include(http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:53:09 UTC] PHP Warning:  include(): Failed opening 'http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:53:47 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:53:47 UTC] PHP Warning:  include(http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:53:47 UTC] PHP Warning:  include(): Failed opening 'http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:54:23 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:54:23 UTC] PHP Warning:  include(http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:54:23 UTC] PHP Warning:  include(): Failed opening 'http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:54:38 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:54:38 UTC] PHP Warning:  include(http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 15:54:38 UTC] PHP Warning:  include(): Failed opening 'http://localhost/socialhipe/themes/altum/views/partials/notifications/informational.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 5
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "border_radius" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "shadow" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "border_width" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "border_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "background_pattern_svg" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 4
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 17
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 17
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "title_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 17
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 17
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 17
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "title" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 17
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 21
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 21
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "description_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 21
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 21
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 21
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "description" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 21
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 24
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "settings" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 24
+[27-Dec-2021 19:09:16 UTC] PHP Warning:  Attempt to read property "display_branding" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 24
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$campaign in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 209
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Attempt to read property "campaign_id" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 209
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 217
+[28-Dec-2021 07:38:54 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:38:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:39:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:40:34 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:47:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:49:14 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:51:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:52:20 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:52:55 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:55:08 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:55:26 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:56:43 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:57:28 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:58:06 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:58:25 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 07:59:10 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:00:19 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:01:38 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:01:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:02:42 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 213
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:04:40 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$INFORMATIONAL_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$IMAGE in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$COUPON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_BAR in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$COLLECTOR_TWO_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$BUTTON_MODAL in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$TEXT_FEEDBACK in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$ENGAGEMENT_LINKS in C:\xampp\htdocs\socialhipe\themes\altum\views\index\index.php on line 232
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$image in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\live_counter.php on line 14
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 27
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 32
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 37
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Undefined property: stdClass::$settings in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42
+[28-Dec-2021 08:49:46 UTC] PHP Warning:  Attempt to read property "time_background_color" on null in C:\xampp\htdocs\socialhipe\themes\altum\views\partials\notifications\countdown_collector.php on line 42

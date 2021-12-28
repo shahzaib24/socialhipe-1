@@ -59,10 +59,10 @@
 
                 <?php else: ?>
 
-                    <li class="nav-item active mx-2"><a class="nav-link shadow p-3 mb-5 bg-white rounded" href="<?= url('login') ?>"> <?= $this->language->login->menu ?></a></li>
+                    <li class="nav-item active my-2 mx-3"><button class="nav-link shadow py-3 px-4 bg-white top-nav-button" href="<?= url('login') ?>"> <?= $this->language->login->menu ?></button></li>
 
                     <?php if($this->settings->register_is_enabled): ?>
-                    <li class="nav-item active mx-2"><a class="nav-link shadow p-3 mb-5 bg-red white rounded text-light" href="<?= url('register') ?>"> <?= $this->language->register->menu ?></a></li>
+                    <li class="nav-item active my-2 mx-3"><button class="nav-link shadow py-3 px-4 bg-red top-nav-button text-light" href="<?= url('register') ?>"> <?= $this->language->register->menu ?></button></li>
                     <?php endif ?>
 
                 <?php endif ?>
